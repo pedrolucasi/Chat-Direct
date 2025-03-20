@@ -25,7 +25,7 @@
      
   2. Execute o servidor: servidor.py
  
-  3. Execute o cliente: cliente.py
+  3. Execute o cliente: cliente.py [![Copiar Texto](https://img.shields.io/badge/Copiar-Texto-blue?style=for-the-badge&logo=copy)](#)
 
  ## Comandos 
  
