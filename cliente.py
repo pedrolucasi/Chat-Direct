@@ -38,16 +38,16 @@ def receive_message():
         print(message.decode())
 
 message_translation = {
-    'ERRO-700': 'Você não está logado.',
-    'ERRO-702': 'Argumentos inválidos.',
-    'ERRO-703': 'Nome de usuário já existe.',
-    'ERRO-704': 'Credenciais inválidas.',
-    'ERRO-999': 'Comando inválido.',
-    'PASS-213': 'Usuário registrado com sucesso.',
-    'PASS-214': 'Login realizado com sucesso.',
-    'PASS-217': 'Desconectado com sucesso.',
-    'MESS-215': 'Mensagem enviada com sucesso',
-    'MESS-216': 'Usuário alvo não está online.'
+    'E-ERROR-700': 'Você não está logado.',
+    'E-ERROR-702': 'Argumentos inválidos.',
+    'E-ERROR-703': 'Nome de usuário já existe.',
+    'E-ERROR-704': 'Credenciais inválidas.',
+    'E-ERROR-999': 'Comando inválido.',
+    'S-PASS-213': 'Usuário registrado com sucesso.',
+    'S-PASS-214': 'Login realizado com sucesso.',
+    'S-PASS-217': 'Desconectado com sucesso.',
+    'M-MESS-215': 'Mensagem enviada com sucesso',
+    'M-MESS-216': 'Usuário alvo não está online.'
 }
 
 username = ''
@@ -57,7 +57,7 @@ while True:
     client_socket.send(command.encode())
     response = client_socket.recv(1024).decode()
     print(f'{response}: {message_translation.get(response, response)}')
-    if command.startswith('ENTRAR') and 'PASS-214' in response:
+    if command.startswith('ENTRAR') and 'S-PASS-214' in response:
         username = command.split(' ')[1]
         threading.Thread(target=receive_message).start()
         send_thread = threading.Thread(target=send_message)
