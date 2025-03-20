@@ -4,7 +4,8 @@
 
  ## Ferramentas utilizadas 
 
-  ![Python Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
 
 
  ## Funcionalidades
@@ -37,7 +38,12 @@
 
  ## Colaboradores 
 
- [![Usuário 1](https://img.shields.io/badge/GitHub-Usuário_1-blue?style=for-the-badge&logo=github)](https://github.com/pedrolucasi)
+![Usuário 1](https://github.com/pedrolucasi.png)  
+**[Usuário 1](https://github.com/pedrolucasi)**  
+
+![Usuário 2](https://github.com/usuario2.png)  
+**[Usuário 2](https://github.com/usuario2)**
+
 
 
 
