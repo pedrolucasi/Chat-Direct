@@ -7,11 +7,12 @@
 
  ## Funcionalidades
 
-    Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha.
-    Login: Permite que um usuário existente faça login no sistema.
-    Listar usuários online: Mostra uma lista de todos os usuários que estão atualmente online.
-    Envio de mensagens: Permite enviar mensagens para outros usuários registrados.
-    Desconexão: Permite que um usuário conecte sua conexão com o servidor.
+- **Cadastro de Usuário:** Permite criar um novo usuário com nome de usuário e senha.  
+- **Login:** Permite que um usuário existente faça login no sistema.  
+- **Listar Usuários Online:** Mostra uma lista de todos os usuários que estão atualmente online.  
+- **Envio de Mensagens:** Permite enviar mensagens para outros usuários registrados.  
+- **Desconexão:** Permite que um usuário encerre sua conexão com o servidor.  
+
 
  ## Execução
 
