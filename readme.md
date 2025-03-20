@@ -43,7 +43,7 @@
 
 [<img src="https://github.com/pedrolucasi.png" width="50px">](https://github.com/pedrolucasi) **[pedrolucasi](https://github.com/pedrolucasi)**  
 
-[<img src="https://github.com/usuario2.png" width="50px">](https://github.com/usuario2) **[Usuário 2](https://github.com/usuario2)**  
+[<img src="https://github.com/GabrielCarvalhc.png" width="50px">](https://github.com/GabrielCarvalhc) **[GabrielCarvalhc](https://github.com/GabrielCarvalhc)**  
 
 
 
