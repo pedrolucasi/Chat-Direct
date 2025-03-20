@@ -4,6 +4,8 @@
 
  ## Ferramentas utilizadas 
 
+  ![Python Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
+
 
  ## Funcionalidades
 
@@ -15,7 +17,7 @@
 
  ## Execução
 
- 1. Clone o repositório: 
+ 1. Clone o repositório: https://github.com/pedrolucasi/Chat-Direct.git
     
  3. Execute o servidor: servidor.py
 
@@ -32,5 +34,10 @@
  MESS: inicia uma conversa com um usuário
 
  SAIR: Encerra a conexão com o servidor
+
+ ## Colaboradores 
+
+ [![Usuário 1](https://img.shields.io/badge/GitHub-Usuário_1-blue?style=for-the-badge&logo=github)](https://github.com/pedrolucasi)
+
 
 
