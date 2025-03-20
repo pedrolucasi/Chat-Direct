@@ -2,7 +2,7 @@ import socket
 import threading
 
 # HOST vazio para aceitar conexões em todas as interfaces 
-HOST = ''
+HOST = '0.0.0.0'
 PORT = 50000
 
 # variáveis globais para manter o estado dos usuários ativos e outra para garantir a consistência dos dados em multi-threaded
@@ -26,7 +26,7 @@ def handle_client(client_socket, address):
                 except OSError as e:
                     print(f"Erro ao enviar resposta: {e}")
                     break
-            if response == 'PASS-217':
+            if response == 'S-PASS-217':
                 break  # encerra o loop após o comando SAIR
     except OSError as e:
         print(f"Erro de socket: {e}")
@@ -42,33 +42,33 @@ def process_message(message, client_socket, address, username):
     if command == 'NOVO':
         with lock_active_users:
             if len(parts) != 3:
-                return ['ERRO-702', '']
+                return ['E-ERROR-702', '']
             _, username, password = parts
             if username in active_users:
-                return ['ERRO-703', '']
+                return ['E-ERROR-703', '']
             active_users[username] = {'password': password, 'socket': client_socket}
-            return ['PASS-213', username]
+            return ['S-PASS-213', username]
         
     elif command == 'ENTRAR':
         with lock_active_users:
             if len(parts) != 3:
-                return ['ERRO-702', '']
+                return ['E-ERROR-702', '']
             _, username, password = parts
             if username not in active_users or active_users[username]['password'] != password:
-                return ['ERRO-704', '']
-            return ['PASS-214', username]
+                return ['E-ERROR-704', '']
+            return ['S-PASS-214', username]
     
     elif command == 'MESS':
         with lock_active_users:
             if len(parts) < 3:
-                return ['ERRO-702', '']
+                return ['E-ERROR-702', '']
             _, target, *msg_parts = parts
             msg = ' '.join(msg_parts)
             if target in active_users:
                 active_users[target]['socket'].send(f'{username}: {msg}'.encode())
-                return ['MESS-215', username]
+                return ['M-MESS-215', username]
             else:
-                return ['MESS-216', username]
+                return ['M-MESS-216', username]
         
     elif command == 'LISTA':
         return [', '.join(active_users.keys()), username]
@@ -79,7 +79,7 @@ def process_message(message, client_socket, address, username):
         client_socket.close()  # Fecha o soquete
         return [None, '']
 
-    return ['ERRO-999', '']
+    return ['E-ERROR-999', '']
 
 #configuração de inicialização do servidor, aceitando conexões e criando as threads para tratar cada cliente
 def main():
