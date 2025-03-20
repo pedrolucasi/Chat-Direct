@@ -39,7 +39,6 @@
   - `username`: O nome do usuário.  
   - `password`: A senha do usuário.  
 
-## Funcionalidades 
 - **`LISTA`** → Lista todos os usuários conectados no chat.  
 
 - **`MESS <username> <mensagem>`** → Inicia uma conversa com o usuário especificado.  
