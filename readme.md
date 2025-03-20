@@ -19,31 +19,31 @@
 
    1. Clone o repositório:
       
-      https://github.com/pedrolucasi/Chat-Direct.git
+      $ https://github.com/pedrolucasi/Chat-Direct.git
       
    2. Navegue até o diretório e execute o servidor:
 
-      servidor.py
+      $ servidor.py
 
    3. Execute o cliente:  
       
-      cliente.py 
+      $ cliente.py 
 
  ## Comandos 
  
 - **`NOVO <username> <password>`** → Registra um novo usuário.  
-  - `username`: O nome de usuário do novo usuário.  
+  - `username`: O nome do usuário.  
   - `password`: A senha do novo usuário.  
 
 - **`ENTRAR <username> <password>`** → Loga um usuário já registrado.  
-  - `username`: O nome de usuário do usuário.  
+  - `username`: O nome do usuário.  
   - `password`: A senha do usuário.  
 
 ## Funcionalidades 
 - **`LISTA`** → Lista todos os usuários conectados no chat.  
 
 - **`MESS <username> <mensagem>`** → Inicia uma conversa com o usuário especificado.  
-  - `username`: O nome de usuário do usuário com quem você deseja conversar.  
+  - `username`: O nome do usuário com quem você deseja conversar.  
   - `mensagem`: A mensagem que deseja enviar.  
 
 - **`SAIR`** → Encerra a conexão com o servidor. 
