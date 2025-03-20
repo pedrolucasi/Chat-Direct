@@ -27,28 +27,26 @@
 
    3. Execute o cliente:  
       
-      cliente.py
+      cliente.py 
 
  ## Comandos 
  
-* NOVO <username> <password>: Registra um novo usuário.
-    Parâmetros:
-        username: O nome de usuário do novo usuário.
-        password: A senha do novo usuário.
+- **`NOVO <username> <password>`** → Registra um novo usuário.  
+  - `username`: O nome de usuário do novo usuário.  
+  - `password`: A senha do novo usuário.  
 
-* ENTRAR <username> <password>: Loga um usuário já registrado.
-    Parâmetros:
-        username: O nome de usuário do usuário.
-        password: A senha do usuário.
+- **`ENTRAR <username> <password>`** → Loga um usuário já registrado.  
+  - `username`: O nome de usuário do usuário.  
+  - `password`: A senha do usuário.  
 
-* LISTA: Lista todos os usuários conectados no chat.
+## Funcionalidades 
+- **`LISTA`** → Lista todos os usuários conectados no chat.  
 
-* MESS <username> <mensagem>: Inicia uma conersa com o usuário especificado.
-    Parâmetros:
-        username: O nome de usuário do usuário com quem você deseja conversar.
-        mensagem: A mensagem que deseja enviar.
+- **`MESS <username> <mensagem>`** → Inicia uma conversa com o usuário especificado.  
+  - `username`: O nome de usuário do usuário com quem você deseja conversar.  
+  - `mensagem`: A mensagem que deseja enviar.  
 
-* SAIR: Encerra a conexão com o servidor.
+- **`SAIR`** → Encerra a conexão com o servidor. 
 
  ## Colaboradores 
 
