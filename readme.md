@@ -1,0 +1,36 @@
+## Chat-Direct
+
+ Este projeto é uma aplicação de Bate-papo que utiliza API de sockets do Python. No Chat-direct é possível se comunicar enviando mensagens para qualquer cliente conectado! 
+
+ ## Ferramentas utilizadas 
+
+
+ ## Funcionalidades
+
+    Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha.
+    Login: Permite que um usuário existente faça login no sistema.
+    Listar usuários online: Mostra uma lista de todos os usuários que estão atualmente online.
+    Envio de mensagens: Permite enviar mensagens para outros usuários registrados.
+    Desconexão: Permite que um usuário conecte sua conexão com o servidor.
+
+ ## Execução
+
+ 1. Clone o repositório 
+
+ 2. Execute o servidor
+
+ 3. Execute o cliente  
+
+ ## Comandos 
+ 
+ NOVO: registra um novo usuário
+
+ ENTRAR: faz login de um usuário registrado
+
+ LISTA: lista os usuários que estão conectados no chat
+
+ MESS: inicia uma conversa com um usuário
+
+ SAIR: Encerra a conexão com o servidor
+
+
