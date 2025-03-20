@@ -1,0 +1,36 @@
+Comandos disponíveis:
+
+* NOVO <username> <password>: Registra um novo usuário.
+    Parâmetros:
+        username: O nome de usuário do novo usuário.
+        password: A senha do novo usuário.
+
+* ENTRAR <username> <password>: Loga um usuário já registrado.
+    Parâmetros:
+        username: O nome de usuário do usuário.
+        password: A senha do usuário.
+
+* LISTA: Lista todos os usuários conectados no chat.
+
+* MESS <username> <mensagem>: Inicia uma conersa com o usuário especificado.
+    Parâmetros:
+        username: O nome de usuário do usuário com quem você deseja conversar.
+        mensagem: A mensagem que deseja enviar.
+
+* SAIR: Encerra a conexão com o servidor.
+
+Tipos de erro:
+
+* E-ERROR-700: Você não está logado.
+* E-ERROR-702: Argumentos inválidos.
+* E-ERROR-703: Usuário já existe.
+* E-ERROR-704: Credenciais inválidas.
+* E-ERROR-999: Comando desconhecido.
+
+Mensagens possíveis:
+
+* S-PASS-213: Usuário registrado com sucesso.
+* S-PASS-214: Login realizado com sucesso.
+* S-PASS-217: Desconectado com sucesso.
+* M-MESS-215: Mensagem enviada com sucesso.
+* M-MESS-216: O usuário não está conectado.

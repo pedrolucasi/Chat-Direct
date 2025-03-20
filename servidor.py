@@ -1,7 +1,7 @@
 import socket
 import threading
 
-# HOST vazio para aceitar conexões em todas as interfaces 
+# HOST para aceitar conexões em todas as interfaces 
 HOST = '0.0.0.0'
 PORT = 50000
 
@@ -34,7 +34,7 @@ def handle_client(client_socket, address):
         print("Cliente desconectado")
         client_socket.close()
 
-#porcessamento das mensagens recebidas vinda do cliente executando os comandos
+#processamento das mensagens recebidas vinda do cliente executando os comandos
 def process_message(message, client_socket, address, username):
     parts = message.split(' ')
     command = parts[0]

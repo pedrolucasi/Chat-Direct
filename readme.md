@@ -15,11 +15,17 @@
 
  ## Execução
 
- 1. Clone o repositório 
+   1. Clone o repositório:
+      
+      https://github.com/pedrolucasi/Chat-Direct.git
+      
+   2. Navegue até o diretório e execute o servidor:
 
- 2. Execute o servidor
+      servidor.py
 
- 3. Execute o cliente  
+   3. Execute o cliente:  
+      
+      cliente.py
 
  ## Comandos 
  
@@ -32,5 +38,7 @@
  MESS: inicia uma conversa com um usuário
 
  SAIR: Encerra a conexão com o servidor
+
+ ## Colaboradores 
 
 
