@@ -5,6 +5,7 @@
  ## Ferramentas utilizadas 
 
 
+
  ## Funcionalidades
 
 - **Cadastro de Usuário:** Permite criar um novo usuário com nome de usuário e senha.  
@@ -41,5 +42,10 @@
  SAIR: Encerra a conexão com o servidor
 
  ## Colaboradores 
+
+[<img src="https://github.com/pedrolucasi.png" width="50px">](https://github.com/pedrolucasi) **[pedrolucasi](https://github.com/pedrolucasi)**  
+
+[<img src="https://github.com/GabrielCarvalhc.png" width="50px">](https://github.com/GabrielCarvalhc) **[GabrielCarvalhc](https://github.com/GabrielCarvalhc)**  
+
 
 
