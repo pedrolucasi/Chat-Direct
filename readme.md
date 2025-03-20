@@ -7,7 +7,7 @@
 
  ## Funcionalidades
 
-    Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha.
+    Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha
     Login: Permite que um usuário existente faça login no sistema.
     Listar usuários online: Mostra uma lista de todos os usuários que estão atualmente online.
     Envio de mensagens: Permite enviar mensagens para outros usuários registrados.
@@ -15,11 +15,11 @@
 
  ## Execução
 
- 1. Clone o repositório 
+ 1. Clone o repositório: 
+    
+ 3. Execute o servidor: servidor.py
 
- 2. Execute o servidor
-
- 3. Execute o cliente  
+ 5. Execute o cliente: cliente.py
 
  ## Comandos 
  
