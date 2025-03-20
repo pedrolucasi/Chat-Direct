@@ -1,4 +1,4 @@
-## Chat-Direct
+## Chat-Direct 🗯️  
 
  Este projeto é uma aplicação de Bate-papo que utiliza API de sockets do Python. No Chat-direct é possível se comunicar enviando mensagens para qualquer cliente conectado! 
 
