@@ -11,9 +11,13 @@
  ## Funcionalidades
 
     Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha
+    
     Login: Permite que um usuário existente faça login no sistema.
+    
     Listar usuários online: Mostra uma lista de todos os usuários que estão atualmente online.
+    
     Envio de mensagens: Permite enviar mensagens para outros usuários registrados.
+    
     Desconexão: Permite que um usuário conecte sua conexão com o servidor.
 
  ## Execução
@@ -38,11 +42,10 @@
 
  ## Colaboradores 
 
-![Usuário 1](https://github.com/pedrolucasi.png)  
-**[Usuário 1](https://github.com/pedrolucasi)**  
+[<img src="https://github.com/pedrolucasi.png" width="50px">](https://github.com/pedrolucasi) **[Usuário 1](https://github.com/pedrolucasi)**  
 
-![Usuário 2](https://github.com/usuario2.png)  
-**[Usuário 2](https://github.com/usuario2)**
+[<img src="https://github.com/usuario2.png" width="50px">](https://github.com/usuario2) **[Usuário 2](https://github.com/usuario2)**  
+
 
 
 
