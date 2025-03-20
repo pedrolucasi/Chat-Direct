@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 
-
  ## Funcionalidades
 
     Cadastro de Usuário: Permite criar um novo usuário com nome de usuário e senha
@@ -22,11 +21,11 @@
 
  ## Execução
 
- 1. Clone o repositório: https://github.com/pedrolucasi/Chat-Direct.git
-    
- 3. Execute o servidor: servidor.py
-
- 5. Execute o cliente: cliente.py
+  1. Clone o repositório: https://github.com/pedrolucasi/Chat-Direct.git
+     
+  2. Execute o servidor: servidor.py
+ 
+  3. Execute o cliente: cliente.py
 
  ## Comandos 
  
@@ -42,7 +41,7 @@
 
  ## Colaboradores 
 
-[<img src="https://github.com/pedrolucasi.png" width="50px">](https://github.com/pedrolucasi) **[Usuário 1](https://github.com/pedrolucasi)**  
+[<img src="https://github.com/pedrolucasi.png" width="50px">](https://github.com/pedrolucasi) **[pedrolucasi](https://github.com/pedrolucasi)**  
 
 [<img src="https://github.com/usuario2.png" width="50px">](https://github.com/usuario2) **[Usuário 2](https://github.com/usuario2)**  
 
